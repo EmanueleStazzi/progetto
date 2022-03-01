@@ -26,3 +26,8 @@
   text-align: center;
   padding-top: 10%;
 }
+.form{
+  position: fixed;
+  padding-top: 10%;
+  padding-left: 20%;
+}

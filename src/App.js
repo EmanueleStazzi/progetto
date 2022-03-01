@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import logo from './img/logoPortale.gif';
 import logo2 from './img/testata.gif';
+import Login from './Login'
 
 function App() {
   const Img = <img src={"../img/logoPortale.gif" }/>
@@ -44,7 +45,7 @@ function App() {
         
         
             <Routes>
-                <Route path="/" element={<MainContainer />}>
+                <Route path="/" element={<Login />}>
                 </Route>
                 <Route path="/Contatti" element={<Contatti />}>
                 </Route>
