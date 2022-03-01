@@ -4,11 +4,14 @@ import Button from 'react-bootstrap/Button'
 import SimpleReactValidator from 'simple-react-validator';
 
 export class Login extends Component {
-   
+    state = {cf: ""};
+
     constructor(props){
         super(props);
         this.validator = new SimpleReactValidator();
-        this.state = {cf:'',pwd:''};
+       
+
+
     }
   render() {
     return (
