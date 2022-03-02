@@ -30,3 +30,6 @@
   padding-top: 10%;
   padding-left: 20%;
 }
+.srv-validation-message{
+  color: red;
+}
